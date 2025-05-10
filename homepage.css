@@ -1,0 +1,144 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fdc82c;
+    color: white;
+}
+
+.logo a {
+    font-size: 45px;
+    font-weight: bold;
+    color: #117ca0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.py {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    background-color: #eef2ff;
+}
+
+.py-content {
+    max-width: 590px;
+}
+
+.py h2 {
+    padding: 10px;
+    font-size: 30px;
+    color: #117ca0;
+    margin-bottom: 50px;
+}
+
+.hero p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.cta-btn {
+    background-color: #3f5efb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #2e47d9;
+}
+
+.py-image img {
+    width: 500px;
+    height: auto;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-item p {
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #117ca0;
+    color: white;
+}
